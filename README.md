@@ -21,6 +21,8 @@ The demo opens with nine figures already drawn from the published aggregate tabl
 
 To analyze a SAV, [open the reproduction Notebook](https://binder.depositar.io/v2/gh/depositar/tscs2024-visuals-reproduction/main?urlpath=lab%2Ftree%2Fnotebooks%2Freproduce.ipynb). In JupyterLab's left file browser, click the **home icon**, open **data → official**, and upload your SAV. Return to the Notebook tab and choose **Run → Run All Cells**. Its default `survey` mode finds the file and checks its metadata. At the bottom, view nine figures or download the results ZIP. Download before the temporary Binder session ends.
 
+If JupyterLab asks you to select a kernel in either Notebook, choose **Python 3 (ipykernel)** and click **Select**.
+
 ## Your survey file
 
 Obtain the official SAV and its documentation from [TSCS or SRDA](docs/DATA_ACCESS.md). Keep the original filename: no rename is required when `data/official/` contains exactly one SAV. With the default settings, the Notebook identifies the required variables and response categories from the file's metadata. Incomplete or ambiguous labels require a first-time confirmation; setup names what needs attention and stops before analysis. Once a release's mapping is confirmed, it can be reused with that release. The [Notebook guide](docs/NOTEBOOK.md) explains how.

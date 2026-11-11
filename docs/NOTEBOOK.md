@@ -13,6 +13,8 @@ For new estimates from your own SAV, use `reproduce.ipynb`: **upload one SAV →
 
 Both modes provide a figure gallery and a ZIP containing figures and aggregate results only.
 
+If JupyterLab asks you to select a kernel in either Notebook, choose **Python 3 (ipykernel)** and click **Select**.
+
 ## Recalculate from a SAV on Binder
 
 ### 1. Obtain your file and open the Notebook
