@@ -1,6 +1,6 @@
 # Generational Differences in Sharing Visuals by Phone and Preserving Digital Files
 
-[![Software and public aggregate checks](https://github.com/ThreeMonth03/tscs2024-visuals-reproduction/actions/workflows/public-reproducibility.yml/badge.svg)](https://github.com/ThreeMonth03/tscs2024-visuals-reproduction/actions/workflows/public-reproducibility.yml)
+[![Software and public aggregate checks](https://github.com/depositar/tscs2024-visuals-reproduction/actions/workflows/public-reproducibility.yml/badge.svg)](https://github.com/depositar/tscs2024-visuals-reproduction/actions/workflows/public-reproducibility.yml)
 
 **Original Chinese title:** 使用手機分享影像以及數位保存方式的世代差異分析
 
@@ -12,14 +12,14 @@ The fixed research archive is available on [depositar (ark:37281/k5j350466)](htt
 
 | What you want to do | Start here |
 |---|---|
-| View nine figures immediately, without uploading data | [Open the Binder demo](https://binder.depositar.io/v2/gh/ThreeMonth03/tscs2024-visuals-reproduction/main?urlpath=lab%2Ftree%2Fnotebooks%2Fdemo.ipynb) |
+| View nine figures immediately, without uploading data | [Open the Binder demo](https://binder.depositar.io/v2/gh/depositar/tscs2024-visuals-reproduction/main?urlpath=lab%2Ftree%2Fnotebooks%2Fdemo.ipynb) |
 | Recalculate from an official SAV you obtained | Upload one SAV to `data/official/`, then run all Notebook cells |
 | Redraw the existing results and download a ZIP | Choose **Run → Run All Cells** in the demo, or use `MODE = "aggregate"` in the reproduction Notebook |
 | Practise without survey records | Use the generated artificial SAV described in the [Notebook guide](docs/NOTEBOOK.md) |
 
 The demo opens with nine figures already drawn from the published aggregate tables; no upload or cell execution is needed to view them. **Run → Run All Cells** verifies the tables, redraws the figures and creates a downloadable ZIP. This does not reestimate statistics from respondent records.
 
-To analyze a SAV, [open the reproduction Notebook](https://binder.depositar.io/v2/gh/ThreeMonth03/tscs2024-visuals-reproduction/main?urlpath=lab%2Ftree%2Fnotebooks%2Freproduce.ipynb). In JupyterLab's left file browser, click the **home icon**, open **data → official**, and upload your SAV. Return to the Notebook tab and choose **Run → Run All Cells**. Its default `survey` mode finds the file and checks its metadata. At the bottom, view nine figures or download the results ZIP. Download before the temporary Binder session ends.
+To analyze a SAV, [open the reproduction Notebook](https://binder.depositar.io/v2/gh/depositar/tscs2024-visuals-reproduction/main?urlpath=lab%2Ftree%2Fnotebooks%2Freproduce.ipynb). In JupyterLab's left file browser, click the **home icon**, open **data → official**, and upload your SAV. Return to the Notebook tab and choose **Run → Run All Cells**. Its default `survey` mode finds the file and checks its metadata. At the bottom, view nine figures or download the results ZIP. Download before the temporary Binder session ends.
 
 ## Your survey file
 
@@ -30,7 +30,7 @@ The software follows the documented structure of historical public releases. Com
 To run the same Notebook on your computer, install **Python 3.14.4**. On macOS or Linux:
 
 ```bash
-git clone https://github.com/ThreeMonth03/tscs2024-visuals-reproduction.git
+git clone https://github.com/depositar/tscs2024-visuals-reproduction.git
 cd tscs2024-visuals-reproduction
 python3.14 -m venv .venv
 source .venv/bin/activate

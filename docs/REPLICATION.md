@@ -4,7 +4,7 @@ The package supports two operations: reestimate from a user-supplied official SA
 
 ## Set up
 
-Install **Python 3.14.4**, matching the tested Binder environment. Obtain the source with `git clone https://github.com/ThreeMonth03/tscs2024-visuals-reproduction.git`, then enter its folder with `cd tscs2024-visuals-reproduction`. On macOS or Linux:
+Install **Python 3.14.4**, matching the tested Binder environment. Obtain the source with `git clone https://github.com/depositar/tscs2024-visuals-reproduction.git`, then enter its folder with `cd tscs2024-visuals-reproduction`. On macOS or Linux:
 
 ```bash
 python3.14 -m venv .venv

@@ -1,6 +1,6 @@
 # Binder and local Notebook guide
 
-To view the published results immediately, [open the Binder demo](https://binder.depositar.io/v2/gh/ThreeMonth03/tscs2024-visuals-reproduction/main?urlpath=lab%2Ftree%2Fnotebooks%2Fdemo.ipynb). It already displays nine figures drawn from the published aggregate tables. No upload or cell execution is needed to see the figures.
+To view the published results immediately, [open the Binder demo](https://binder.depositar.io/v2/gh/depositar/tscs2024-visuals-reproduction/main?urlpath=lab%2Ftree%2Fnotebooks%2Fdemo.ipynb). It already displays nine figures drawn from the published aggregate tables. No upload or cell execution is needed to see the figures.
 
 Choose **Run → Run All Cells** in the demo to verify the tables, redraw the figures and create a results ZIP. The demo uses `aggregate` mode; it does not recalculate survey statistics from respondent records. Its saved previews are generated while building the Binder image. Notebook sources in Git retain empty outputs.
 
@@ -19,7 +19,7 @@ Both modes provide a figure gallery and a ZIP containing figures and aggregate r
 
 Download the official SAV through [TSCS or SRDA](DATA_ACCESS.md), and retain its codebook and citation information. Use Binder when the provider's terms permit cloud processing; otherwise use the same Notebook [locally](#run-on-your-computer).
 
-[Launch the Binder Notebook](https://binder.depositar.io/v2/gh/ThreeMonth03/tscs2024-visuals-reproduction/main?urlpath=lab%2Ftree%2Fnotebooks%2Freproduce.ipynb) and wait for JupyterLab to open. A commit or release tag can replace `main` in this link when you need a specific code version.
+[Launch the Binder Notebook](https://binder.depositar.io/v2/gh/depositar/tscs2024-visuals-reproduction/main?urlpath=lab%2Ftree%2Fnotebooks%2Freproduce.ipynb) and wait for JupyterLab to open. A commit or release tag can replace `main` in this link when you need a specific code version.
 
 ### 2. Upload to `data/official/`
 
